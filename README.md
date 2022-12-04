@@ -19,7 +19,7 @@ El modelo final de aprendizaje profundo toma como base el modelo de clasificaci�
 
 ![Screenshot](inceptionv3.jpeg)
 
-Nota: si desea conocer más acerca de la creación y expansión del conjunto de datos o la implementación y evaluación del modelo de detección, por favor consulte el pdf **FaceDetectionModel_A01750884**.
+Nota: si desea conocer más acerca de la creación y expansión del conjunto de datos o la implementación y evaluación del modelo de detección, por favor consulte el pdf **FaceDetectionModel_A01750884**. Además, se incluyen las imágenes del sujeto de prueba utilizadas para entrenar el modelo de aprendizaje profundo.
 
 ### Referencias
 * CNN Architectures. (2022). En J. Arriaga (Comp.), TC3007C: Inteligencia artificial avanzada para la ciencia de datos II. Instituto Tecnológico de Monterrey Campus Estado de México. https://drive.google.com/drive/u/1/folders/13K5k8mIMRiBcscpGC2yziuFxcXPLYHqr
