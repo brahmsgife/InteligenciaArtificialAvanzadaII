@@ -6,11 +6,16 @@ Repositorio de la concentración de Inteligencia Artificial Avanzada II.
 
 Momento de Retroalimentación correspondiente al Módulo 2 "Técnicas y arquitecturas de deep learning".
 
-Este humilde proyecto nace del deseo de desarrollar e implementar en el futuro una aplicación para la detección de rostros.
+Este humilde proyecto nace del deseo de desarrollar e implementar en el futuro una aplicación para la detección de rostros. Es posible gracias a los conocimientos adquiridos en la clase "Técnicas y arquitecturas de Deep Learning" y el curso intensivo "Build a Deep Face Detection Model with Python and Tensorflow".
 
 ### Descripción
 
-En **FaceDetection.ipynb** se encuentra el código que permite la detección de mi rostro por medio de imagenes, las cuáles pertenecen a un conjunto de datos generado por mí con ayuda de las librerías **albumentations** y **labelme**. El modelo de aprendizaje profundo toma como base el modelo de clasificación de imágenes de Keras **InceptionV3** (cargado con pesos preentrenados en ImageNet y sin la última capa de red), al cuál se le suman dos pequeños modelos: clasificación y regresión, para la clasificación binaria existente y la predicción de las 4 coordenadas que permiten la detección del rostro. 
+En **FaceDetection.ipynb** se encuentra el código que permite la detección de mi rostro por medio de imagenes, las cuáles pertenecen a un conjunto de datos generado por mí con ayuda de las librerías **albumentations** y **labelme**. Respecto a la implementación del modelo, se realizó una comparación de 2 modelos que toman como base CNN distintas; VGG-16 e InceptionV3. Puede conocer más detalles de dicha comparación y resultados obtenidos por ambos modelos profundos en el documento pdf anexo a este repositorio. 
+
+* VGG es una red neuronal convolucional propuesta por K. Simonyan y A. Zisserman, de la Universidad de Oxford en 2014.
+* InceptionV3: es la tercera edición de la red neuronal convolucional de inicio de Google, presentada originalmente durante el ImageNet Recognition Challenge.
+
+El modelo final de aprendizaje profundo toma como base el modelo de clasificación de imágenes de Keras **InceptionV3** (cargado con pesos preentrenados en ImageNet y sin la última capa de red), al cuál se le suman dos pequeños modelos: clasificación y regresión, para la clasificación binaria existente y la predicción de las 4 coordenadas que permiten la detección del rostro. 
 
 ![Screenshot](M2_DeepLearning/FaceDetection/inceptionv3.jpeg)
 
