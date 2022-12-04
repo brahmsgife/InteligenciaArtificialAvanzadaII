@@ -1,4 +1,4 @@
-# InteligenciaArtificialAvanzadaII
+# Inteligencia Artificial Avanzada II
 Repositorio de la concentración de Inteligencia Artificial Avanzada II.
 
 
