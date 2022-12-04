@@ -17,7 +17,7 @@ En **FaceDetection.ipynb** se encuentra el código que permite la detección de 
 
 El modelo final de aprendizaje profundo toma como base el modelo de clasificación de imágenes de Keras **InceptionV3** (cargado con pesos preentrenados en ImageNet y sin la última capa de red), al cuál se le suman dos pequeños modelos: clasificación y regresión, para la clasificación binaria existente y la predicción de las 4 coordenadas que permiten la detección del rostro. 
 
-![Screenshot](M2_DeepLearning/FaceDetection/inceptionv3.jpeg)
+![Screenshot](inceptionv3.jpeg)
 
 Nota: si desea conocer más acerca de la creación y expansión del conjunto de datos o la implementación y evaluación del modelo de detección, por favor consulte el pdf **FaceDetectionModel_A01750884**.
 
